@@ -200,13 +200,13 @@ html, body
 /*인원수앞*/
 #board-info #viewers-area #viewers:before 
 {
-    content: "밥게더를 지켜보는 ";
+    content: "상어";
     cursor: text;
 }
 /*인원수뒤*/
 #board-info #viewers-area #viewers:after 
 {
-    content: "마리의 상어";
+    content: "마리";
     cursor: text;
 }
 /*브로드케스터 이미지*/

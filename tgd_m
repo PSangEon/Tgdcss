@@ -1,0 +1,199 @@
+/*트게더 로고*/
+header>#header-area>a>h1 {
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    height: 32px;
+    text-indent: -9999px;
+    margin: 0 auto;
+    background: url(https://user-images.githubusercontent.com/40644501/66009850-4c51e000-e4f7-11e9-8352-213ad182318e.png) no-repeat;
+}
+/*검색버튼색*/
+header>#header-area>#header-search-link {
+    display: inline-block;
+    float: right;
+    color: #56a2fe;
+    font-size: 24px;
+    padding: 0 16px 8px;
+}
+/*메뉴 버튼*/
+header>#header-area>#header-bar-link {
+    display: inline-block;
+    float: left;
+    color: #56a2fe;
+    font-size: 24px;
+    padding: 0 16px 8px;
+}
+nav#nav>#nav-upper>#header-close-bar-link {
+    display: inline-block;
+    float: left;
+    color: #56a2fe;
+    font-size: 24px;
+    padding: 0 16px 8px;
+}
+/*메뉴 배경*/
+nav#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9100;
+}
+/*매뉴 상단 ui*/
+nav#nav > #nav-upper #noteDropdownContainer a, nav#nav > #nav-upper #userDropdownContainer a {
+    text-decoration: none;
+    color: #667587;
+}
+/*메뉴 상단 배경*/
+nav#nav>.nav-header {
+    margin-top: 12px;
+    background: #56a2fe;
+    color: #fff;
+    padding: 6px 12px;
+}
+/*메뉴 줄나눔*/
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #667486;
+}
+/*상단 배경*/
+header {
+    width: 100%;
+    border-bottom: 4px solid #56a2fe;
+    text-align: center;
+    padding: 4px 0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    background: #667688;
+    transition: top 0.2s ease-in-out;
+}
+/*광고 배경*/
+#header-top-notice strong.notice-badge {
+    background: #56a2fe;
+    padding: 4px 8px;
+    color: #fff;
+    font-weight: bold;
+}
+/*상단 홈버튼*/
+a {
+    color: #56a2fe;
+    text-decoration: none;
+}
+/*상단 ui*/
+#board-info>a.board-right-menu {
+    display: inline-block;
+    padding: 12px;
+    border-left: 1px solid #dcecff;
+    float: right;
+    font-size: 16px;
+    color: #667587;
+    text-decoration: none;
+}
+/*상단개시판배경*/
+#article-list #article-list-category>a {
+    display: inline-block;
+    padding: 11px 16px;
+    background: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+#article-list #article-list-category {
+    background: #ffffff;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+/*글쓴이*/
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: #56a2fe;
+    font-weight: bold;
+}
+/*하단 페이지 선택창*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #56a2fe;
+    border-color: #56a2fe;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #56a2fe;
+}
+/*인기글버튼*/
+#article-list-menu>.btn.best {
+    position: absolute;
+    left: 8px;
+    color: #56a2fe;
+    background-image: none;
+    background-color: white;
+    border-color: #56a2fe;
+}
+/*글쓰기 버튼*/
+.btn-primary {
+    color: #fff;
+    background-color: #56a2fe;
+    border-color: #56a2fe;
+}
+/*하단*/
+footer {
+    background: #667587;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 12px;
+}
+/*배경*/
+html, body {
+    width: 100% !important;
+    height: 100%;
+    background: #e7f2ff;
+}
+/*댓글 숫자*/
+#article-reply-area > .header h5 {
+    font-size: 14px;
+    color: #56a2fe;
+    font-weight: bold;
+}
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    font-size: 13px;
+    font-weight: bold;
+    color: #56a2fe;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/*댓글 글쓴이*/
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    font-weight: bold;
+    color: #56a2fe;
+    cursor: pointer;
+}
+/*추천수색*/
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #56a2fe;
+    color: #fff;
+    font-weight: bold;
+    padding: 1px 5px;
+    font-size: 11px;
+    border-radius: 100px;
+}
+/*인원수 글자색*/
+#board-info #viewers-area {
+    color: #667587;
+}
+/*인원수 아이콘(수정중)
+#board-info #viewers-area .fa-user:before {
+    color: rgba(10,59,84,0);
+    content: url();
+}
+*/

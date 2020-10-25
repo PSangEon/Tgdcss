@@ -3,7 +3,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     width: 170px;
     height: 50px;
-    background: url(https://user-images.githubusercontent.com/40644501/66009654-60e1a880-e4f6-11e9-835f-194ed075cd56.png) no-repeat
+    background: url(https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0m.png?raw=true) no-repeat
 }
 header .row>div:nth-child(1)>a img {
     opacity: 0

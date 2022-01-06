@@ -164,7 +164,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #main .menu-wrapper { border: none !important; }
 #main .menu-wrapper>.header { 
 	background: var(--maincolor) !important;
-	border-radius: 5px 5px 0 0 !important;
+	border-radius: 12px 12px 0 0 !important;
 }
 #main .menu-wrapper>a,
 #main .menu-wrapper #fav-shortcut-area>a,
@@ -175,7 +175,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 }
 #main .menu-wrapper>a:last-child {
 	border-bottom: 2px solid var(--maincolor) !important;
-	border-radius: 0 0 5px 5px !important;
+	border-radius: 0 0 12px 12px !important;
 }
 #main .menu-wrapper>a>em,
 #main .menu-wrapper #fav-shortcut-area>a>em>i.fa.fa-star { color: var(--maincolor) !important; }

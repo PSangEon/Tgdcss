@@ -81,9 +81,8 @@ header #header-bar { margin-bottom: 10px !important; }
 
 /* 헤더 상단 메뉴 */
 header #header-bar>.row {
-    border: none !important;
-    border-top: 4px solid var(--maincolor) !important;
-    border-radius: 0 0 5px 5px !important;
+	border: 2px solid var(--maincolor);
+	border-radius: 12px;
 }
 
 /* 헤더 광고 뱃지 */
@@ -99,6 +98,13 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 	padding: 5px 6px 3px 6px !important;
 	background: var(--maincolor) !important;
 }
+
+/* 전광판 */ header #header-bar #header-top-notice strong.notice-badge,
+/* 트게더 알림 */ header #header-bar #header-menu-right #userDropdown #notification-badge {
+	background: var(--mainColor);
+}
+
+
 /*상단 프로필*/
 #board-info {
 	margin: 0;

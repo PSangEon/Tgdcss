@@ -23,6 +23,19 @@ html.darkmode:root {
 	a#switch-platform-link { font-size: 36px; }
 }
 
+/* 상단으로 이동 */ 
+/* 사용시 주석 해제 후 url 안에 이미지 주소 입력 */
+ #movetotop img{display:none}
+#movetotop {
+	display: inline-block;
+	opacity: 1;
+	background: url(https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0.png?raw=true);
+	width: 120px;
+	height: 120px;
+	background-size: contain;
+	background-repeat: no-repeat;
+} 
+
 /* 모든 항목 focus시 아웃라인 제거 */
 *:focus { outline: none !important; }
 
@@ -55,12 +68,12 @@ body { background: transparent !important; }
 /* 트게더 로고 */
 /* 로고 변경시 주석 해제 후 url 안에 이미지 주소 입력 */
 header .row>div:nth-child(1)>a>img {
-	content: url((https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0.png?raw=true);
+	content: url();
 	height: 50px;
 }
 /* 다크모드용 로고 */
 html.darkmode header .row>div:nth-child(1)>a>img {
-	content: url((https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0.png?raw=true);
+	content: url();
 }
 
 /* 헤더 검색창 */
@@ -357,20 +370,6 @@ input.form-control:focus::placeholder {
 a.custom-badge-link {
     border: none !important;
 }
-
-/* 상단으로 이동 */ 
-/* 사용시 주석 해제 후 url 안에 이미지 주소 입력 */
-/* #movetotop img{display:none}
-#movetotop {
-	display: inline-block;
-	opacity: 1;
-	background: url();
-	width: 120px;
-	height: 120px;
-	background-size: contain;
-	background-repeat: no-repeat;
-} */
-
 
 /******* 애니메이션 *******/
 small.favo i.fa.fa-heart {

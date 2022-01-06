@@ -84,6 +84,10 @@ header #header-bar>.row {
 	border: 2px solid var(--maincolor);
 	border-radius: 12px;
 }
+html.darkmode header #header-bar>.row {
+	border: 2px solid var(--maincolor);
+	border-radius: 12px;
+}
 
 /* 헤더 광고 뱃지 */
 header #header-bar #header-top-notice strong.notice-badge { background: var(--maincolor) !important; }
@@ -97,11 +101,6 @@ span.label.label-default { background: var(--maincolor) !important; }
 header #header-bar #header-menu-right #userDropdown #notification-badge {
 	padding: 5px 6px 3px 6px !important;
 	background: var(--maincolor) !important;
-}
-
-/* 전광판 */ header #header-bar #header-top-notice strong.notice-badge,
-/* 트게더 알림 */ header #header-bar #header-menu-right #userDropdown #notification-badge {
-	background: var(--mainColor);
 }
 
 

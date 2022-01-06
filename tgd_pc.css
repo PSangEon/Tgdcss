@@ -28,7 +28,6 @@ html.darkmode:root {
 
 /* 링크 기본 */
 a {
-	color: var(--maincolor) !important;
 	transition: all 0.2s ease 0s;
 }
 a:hover,

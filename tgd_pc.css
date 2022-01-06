@@ -239,7 +239,33 @@ span.a-badge i.fa.fa-info-circle { color: var(--maincolor) !important; }
 .fr-toolbar.fr-top {
 	border-top: 2px solid var(--maincolor) !important;
 }
+/*게시글 애니메이션*/
+#article-list>.article-list-row {
+	border: none;
+	transition: 0.2s !important;
+}
 
+#article-list>.article-list-row:hover,
+#article-list>.article-list-row:focus {
+	background-color: var(--mainColor2);
+	transform: scale(1.01);
+}
+
+#article-list>.article-list-row.hot,
+#article-list>.article-list-row.notice {
+	background-color: var(--mainColor3);
+}
+
+#article-list>.article-list-row.hot:hover,
+#article-list>.article-list-row.hot:focus,
+#article-list>.article-list-row.notice:hover,
+#article-list>.article-list-row.notice:focus {
+	background-color: var(--mainColor5);
+}
+
+#article-list>.article-list-row>.item>.list-header {
+	border-left: none;
+}
 
 /* 게시글 페이지 */
 .pagination>li>a,

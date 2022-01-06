@@ -253,6 +253,7 @@ html.darkmode #article-list #article-list-category {
 	color: #ffffff !important;
 }
 #article-list #article-list-category.can-float {
+    border-top: 2px solid var(--maincolor);
     border-radius: 12px;
 }
 /* AD 글자색 */

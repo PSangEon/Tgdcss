@@ -55,12 +55,12 @@ body { background: transparent !important; }
 /* 트게더 로고 */
 /* 로고 변경시 주석 해제 후 url 안에 이미지 주소 입력 */
 header .row>div:nth-child(1)>a>img {
-	content: url((https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0.png);
+	content: url((https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0.png?raw=true);
 	height: 50px;
 }
 /* 다크모드용 로고 */
 html.darkmode header .row>div:nth-child(1)>a>img {
-	content: url((https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0.png);
+	content: url((https://github.com/sharkmeal/css/blob/master/img/%ED%8A%B8%EA%B0%9C%EB%8D%94%20%EB%A1%9C%EA%B3%A0.png?raw=true);
 }
 
 /* 헤더 검색창 */

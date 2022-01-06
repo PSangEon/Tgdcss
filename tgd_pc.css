@@ -103,7 +103,6 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #board-info {
 	margin: 0;
 	height: auto;
-	background: white;
 	border: 2px solid  var(--maincolor);
 	border-radius: 12px;
 	margin-bottom: 0.5em;
